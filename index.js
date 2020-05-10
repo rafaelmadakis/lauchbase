@@ -3,19 +3,26 @@
 // mensagem do calculo da média
 // se a media for maior que 5, parabenizar a turma
 
-const aluno1 = 'Mayk'
-const notaAluno01 = 9.8
+const aluno01 = {
+    nome : "Mayk",
+    nota : 9.8
+}
 
-const aluno2 = 'Diego'
-const notaAluno02 = 10
+const aluno02 = {
+    nome : "Diego",
+    nota : 10
+}
 
-const aluno3 = 'Fulano'
-const notaAluno03 = 2
+const aluno03 = {
+    nome : "Fulano",
+    nota : 2
+}
+
+console.log(aluno01)
 
 
 
-
-const media = (notaAluno01 + notaAluno02 + notaAluno03) /  3
+const media = (aluno01.nota + aluno02.nota + aluno03.nota) /  3
 
 if (media > 5){
  console.log(`A nota foi de ${media}. Parabéns`)
